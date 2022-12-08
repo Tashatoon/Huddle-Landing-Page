@@ -1,0 +1,37 @@
+ul.socialmedia-header {
+    float: right;
+    list-style: none;
+    width: 25px;
+    padding-right: 250px;
+    position: relative; bottom: 195px;
+    vertical-align: right;
+    margin-top: 35px;
+}
+
+.main-image {
+    width: 100%;
+}
+h1 {
+    padding: 34px;
+    margin-left: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.text {
+    padding: 45px;
+    line-height: 25px;
+}
+
+button {
+    margin-bottom: 100px;
+    padding: 15px;
+    height: 55px;
+    width: auto;
+    vertical-align: right;
+    border-radius: 25px;
+}
