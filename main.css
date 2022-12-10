@@ -9,9 +9,12 @@
 .image {
     width: 75%;
 }
-h1 {
-    padding: 34px;
-    margin-left: 20px;
+.logo-image {
+    padding:3%;
+}
+h2 {
+    font-family: "Poppins";
+    color: aliceblue;
 }
 .container {
     display: flex;
@@ -23,6 +26,8 @@ h1 {
 .text {
     padding-left: 55px;
     line-height: 35px;
+    font-family: "Open Sans";
+    color:aliceblue;
 }
 
 button {
