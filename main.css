@@ -1,15 +1,13 @@
-ul.socialmedia-header {
-    float: right;
-    list-style: none;
-    width: 25px;
-    padding-right: 250px;
-    position: relative; bottom: 195px;
-    vertical-align: right;
-    margin-top: 35px;
+.socialmedia-header {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+    justify-content: space-between;
 }
 
-.main-image {
-    width: 100%;
+.image {
+    width: 75%;
 }
 h1 {
     padding: 34px;
@@ -23,15 +21,21 @@ h1 {
 }
 
 .text {
-    padding: 45px;
-    line-height: 25px;
+    padding-left: 55px;
+    line-height: 35px;
 }
 
 button {
     margin-bottom: 100px;
-    padding: 15px;
-    height: 55px;
-    width: auto;
+    padding: 20px;
+    height:10%;
+    width: 35%;
     vertical-align: right;
     border-radius: 25px;
+    line-height: 5px;
+    background-color: hsl(300, 69%, 71%);
+}
+body {
+    background-image: url("bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
 }
