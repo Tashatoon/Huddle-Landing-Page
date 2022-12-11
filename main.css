@@ -1,9 +1,12 @@
 .socialmedia-header {
     position: absolute;
     right: 0px;
-    width: 300px;
+    width: 200px;
+    margin-top: 500px;
     padding: 10px;
-    justify-content: space-between;
+    font-size: xx-large;
+    cursor: pointer;
+  
 }
 
 .image {
@@ -14,7 +17,9 @@
 }
 h2 {
     font-family: "Poppins";
+    font-size: 35px;
     color: aliceblue;
+    line-height: normal;
 }
 .container {
     display: flex;
@@ -24,8 +29,9 @@ h2 {
 }
 
 .text {
-    padding-left: 55px;
-    line-height: 35px;
+    padding-left: 45px;
+    padding-bottom: 100px;
+    line-height: 25px;
     font-family: "Open Sans";
     color:aliceblue;
 }
@@ -39,6 +45,8 @@ button {
     border-radius: 25px;
     line-height: 5px;
     background-color: hsl(300, 69%, 71%);
+    color: aliceblue;
+    cursor: pointer;
 }
 body {
     background-image: url("bg-desktop.svg");
